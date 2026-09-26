@@ -1,8 +1,8 @@
 # Akshay Sharma Portfolio
 
-Personal portfolio inspired by the Kimaya Gabhane layout: dark theme, left sidebar, gold accent, Home / About / Resume / Projects / Contact.
+Editorial portfolio for **Akshay Sharma, AI Product Manager**.
 
-Content is drawn from [github.com/Akshay-Sharma-AI](https://github.com/Akshay-Sharma-AI) and [akkshaysharma.com](https://www.akkshaysharma.com/).
+The site tells a product story: thesis, craft loop, decade of shipped AI, and the 2024 IJRSI paper on AI and education equity. Links also live on [linktr.ee/sharmaakshay](https://linktr.ee/sharmaakshay).
 
 ## Local preview
 

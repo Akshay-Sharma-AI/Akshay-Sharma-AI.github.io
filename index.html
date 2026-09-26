@@ -3,384 +3,307 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Akshay Sharma | Senior AI &amp; Data Product Manager</title>
-  <meta name="description" content="Portfolio of Akshay Sharma — Senior AI & Data Product Manager. 10+ years building AI-powered products. Mentor to 1000+ professionals. MBA, IIM Kozhikode." />
+  <title>Akshay Sharma | AI Product Manager</title>
+  <meta name="description" content="Akshay Sharma is an AI Product Manager who ships agentic systems, GenAI metrics, and research on using AI to close socio-economic gaps in Indian education." />
   <meta name="author" content="Akshay Sharma" />
-  <meta property="og:title" content="Akshay Sharma Portfolio" />
-  <meta property="og:description" content="Senior AI & Data Product Manager. Building AI-powered products and mentoring the next generation of product leaders." />
+  <meta property="og:title" content="Akshay Sharma — AI Product Manager" />
+  <meta property="og:description" content="I decide which AI products deserve to exist — then I take them from discovery to evals to ship." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="images/akshay.jpg" />
   <link rel="icon" href="images/akshay.jpg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+  <div class="orb" id="orb"></div>
+
   <header class="topbar" id="topbar">
-    <a class="brand" href="#home">Akshay Sharma</a>
+    <a class="brand" href="#home">
+      <span class="mark">AS</span>
+      <span>AI Product Manager</span>
+    </a>
     <button class="nav-toggle" id="nav-toggle" aria-label="Open menu">
       <span></span><span></span><span></span>
     </button>
     <nav id="sidebar">
       <ul>
         <li><a class="active" href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li><a href="#thesis">Thesis</a></li>
+        <li><a href="#craft">Craft</a></li>
+        <li><a href="#story">Story</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#studio">Studio</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <main class="page">
+  <main>
     <section class="hero" id="home">
-      <div class="hero-inner">
-        <div class="hero-copy">
-          <p class="hero-hello">Hello!</p>
-          <h1>I'm Akshay<br />Sharma</h1>
-          <p class="typing" id="typing-animation" aria-live="polite"></p>
-          <p class="hero-role">A Senior AI &amp; Data Product Manager</p>
+      <div class="hero-copy">
+        <p class="kicker">Microsoft · Avalara · Brane · EY · IIM Kozhikode · UC Berkeley</p>
+        <h1>I build the AI products that survive the demo.</h1>
+        <p class="lede-hero">
+          I am <strong>Akshay Sharma</strong>, an <em>AI Product Manager</em>.
+          I do not collect models. I decide which intelligence is worth putting in a user’s hands —
+          then I write the PRD, the kill criteria, the eval, and the ship plan.
+        </p>
+        <p class="typing" id="typing-animation" aria-live="polite"></p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#research">Read the research</a>
+          <a class="btn btn-outline" href="https://linktr.ee/sharmaakshay" target="_blank" rel="noopener">All links</a>
+        </div>
+      </div>
+      <div class="hero-stage">
+        <figure class="portrait">
+          <img src="images/akshay.jpg" alt="Akshay Sharma, AI Product Manager" />
+          <figcaption>Akshay Sharma · AI Product Manager</figcaption>
+        </figure>
+        <aside class="signal">
+          <p class="signal-label">Current signal</p>
+          <p>Shipping AI-first compliance products. Teaching the next 1,000 people how to do the same.</p>
+          <ul>
+            <li><span>10+</span> years in product</li>
+            <li><span>0 → 1</span> AI bets shipped</li>
+            <li><span>UNESCO</span> cited background work</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section thesis" id="thesis">
+      <p class="eyebrow">01 — Thesis</p>
+      <h2>AI expertise is a product job, not a model job.</h2>
+      <div class="thesis-grid">
+        <article>
+          <h3>Most teams start with a model.</h3>
+          <p>I start with a decision: who is stuck, what judgment is expensive, and whether intelligence will change the outcome. If it will not, we do not build it.</p>
+        </article>
+        <article>
+          <h3>The demo is the cheapest lie in AI.</h3>
+          <p>A chatbot that answers once is theatre. An AI product has retrieval, guardrails, cost, evals, and a human who still owns the last mile.</p>
+        </article>
+        <article>
+          <h3>The highest-leverage AI is unfairness, inverted.</h3>
+          <p>I published research on using AI to personalize learning in India — because a one-size-fits-all system clones privilege. That is the same instinct I bring to enterprise products.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section craft" id="craft">
+      <p class="eyebrow">02 — The AI PM craft</p>
+      <h2>How I take intelligence from a slide to a system.</h2>
+      <ol class="loop">
+        <li>
+          <span>01</span>
+          <h3>Discover</h3>
+          <p>Opportunity canvas. Feasibility. When <em>not</em> to use AI. Kill criteria before the first token is spent.</p>
+        </li>
+        <li>
+          <span>02</span>
+          <h3>Spec</h3>
+          <p>PRDs written for GenAI, RAG, and agents — jobs to be done, failure modes, and the metric that will fire someone.</p>
+        </li>
+        <li>
+          <span>03</span>
+          <h3>Orchestrate</h3>
+          <p>Tools, handoffs, memory, MCP. The product is the graph, not the prompt.</p>
+        </li>
+        <li>
+          <span>04</span>
+          <h3>Evaluate</h3>
+          <p>Quality, cost, safety, traces. Weekly scorecards. If we cannot measure it, it is not a product.</p>
+        </li>
+        <li>
+          <span>05</span>
+          <h3>Ship</h3>
+          <p>Deploy, teach the team, mentor the market. A live URL beats a strategy memo.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section story" id="story">
+      <p class="eyebrow">03 — The story</p>
+      <h2>A decade of turning messy systems into AI products.</h2>
+      <p class="lede">The titles changed. The question did not: can this intelligence earn its place in a real workflow?</p>
+
+      <ol class="chapters">
+        <li>
+          <p class="when">2015 — 2017 · ADP</p>
+          <h3>I learned that speed is a product.</h3>
+          <p>Tax Credits Services. Data processing +50%. Report time −60%. Before I ever said “AI”, I learned that operators will not wait for a clever insight.</p>
+        </li>
+        <li>
+          <p class="when">2019 — 2021 · L&amp;T</p>
+          <h3>I took product into the field.</h3>
+          <p>Smart-city IoT. $5M in contracts. The lesson: a roadmap that cannot survive dust, politics, and a site visit is not a product.</p>
+        </li>
+        <li>
+          <p class="when">2021 — 2022 · EY</p>
+          <h3>I shipped a 0-to-1 AI banking bet.</h3>
+          <p>A B2C digital-banking product. +15% market penetration. +35% satisfaction. This is where AI stopped being a slide and became a customer habit.</p>
+        </li>
+        <li>
+          <p class="when">2022 — 2023 · Microsoft</p>
+          <h3>I put models behind decisions.</h3>
+          <p>Azure Cloud Migration Tool. Forecast accuracy +25%. Decision time −20%. Partnership with engineering and data science on surfaces people actually click.</p>
+        </li>
+        <li>
+          <p class="when">2023 — 2025 · Brane AI</p>
+          <h3>I ran an AI platform like a product company.</h3>
+          <p>B2B financial-risk SaaS. Adoption +30%. Agent and RAG use cases with gates. This is also when the education research went from background paper to journal.</p>
+        </li>
+        <li>
+          <p class="when">2025 — now · Avalara</p>
+          <h3>I am making compliance AI-first.</h3>
+          <p>Managed Compliance Platform. Real-time fraud and tracking. Quality, cost, and safety as first-class product metrics — not afterthoughts.</p>
+        </li>
+      </ol>
+
+      <div class="edu-strip">
+        <p><strong>IIM Kozhikode</strong> MBA · <strong>UC Berkeley</strong> AI &amp; Business Strategies · <strong>JNTU</strong> B.Tech</p>
+      </div>
+    </section>
+
+    <section class="section research" id="research">
+      <p class="eyebrow">04 — Signature research</p>
+      <h2>AI should close gaps, not clone privilege.</h2>
+      <article class="paper">
+        <div>
+          <p class="paper-meta">IJRSI · Volume XI, Issue IV · 2024 · DOI 10.51244/IJRSI.2024.1104066</p>
+          <h3>AI For Bridging Socio-Economic Inequities in Indian Education Space</h3>
+          <p class="authors">Arijit Goswami &amp; Akshay Sharma · Product Management, Brane Enterprises</p>
+          <p>
+            India runs one of the world’s largest school systems — and a one-size-fits-all pedagogy.
+            Our paper argued that AI earns the right to exist in that system only if it personalizes
+            attention: adaptive learning, bias-light assessment, and teacher time given back to the child
+            who would otherwise disappear in the average.
+          </p>
+          <p>
+            We used UDISE, World Bank, NITI Aayog, and UNICEF data, plus conversations with educators
+            and policymakers. A related background paper was acknowledged in UNESCO’s
+            <em>State of Education Report for India 2022</em>.
+          </p>
+          <p class="paper-point">The product lesson I still use: if the model cannot see the student at the edge of the system, it is not intelligence. It is a mirror of the already-served.</p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="https://www.linkedin.com/in/aakshaysharma/" target="_blank" rel="noopener">LinkedIn</a>
-            <a class="btn btn-outline" href="#projects">My works</a>
+            <a class="btn btn-primary" href="https://www.researchgate.net/publication/380797771_AI_For_Bridging_Socio-Economic_Inequities_in_Indian_Education_Space" target="_blank" rel="noopener">ResearchGate</a>
+            <a class="btn btn-outline" href="https://rsisinternational.org/journals/ijrsi/articles/ai-for-bridging-socio-economic-inequities-in-indian-education-space/" target="_blank" rel="noopener">Journal page</a>
           </div>
         </div>
-        <div class="hero-photo">
-          <img src="images/akshay.jpg" alt="Akshay Sharma" />
-        </div>
-      </div>
-    </section>
-
-    <section class="section about" id="about">
-      <div class="about-card">
-        <div class="about-left">
-          <div class="about-photo">
-            <img src="images/akshay.jpg" alt="Akshay Sharma, Senior AI and Data Product Manager" />
-          </div>
-          <ul class="facts">
-            <li><span>Name:</span> Akshay Sharma</li>
-            <li><span>Job Role:</span> Senior AI &amp; Data Product Manager</li>
-            <li><span>Experience:</span> 10+ Years</li>
-            <li><span>Address:</span> Telangana, India</li>
+        <aside class="paper-aside">
+          <p>What the paper refuses</p>
+          <ul>
+            <li>AI as a substitute for teachers</li>
+            <li>Demos that never reach a government school</li>
+            <li>Average metrics that hide caste, gender, and income gaps</li>
           </ul>
-          <h3 class="skills-title">Skills</h3>
-          <div class="skill">
-            <div class="skill-meta"><span>Product Strategy</span><span>95%</span></div>
-            <div class="bar"><i style="--w:95%"></i></div>
-          </div>
-          <div class="skill">
-            <div class="skill-meta"><span>AI / ML &amp; GenAI</span><span>90%</span></div>
-            <div class="bar"><i style="--w:90%"></i></div>
-          </div>
-          <div class="skill">
-            <div class="skill-meta"><span>Agentic Systems &amp; RAG</span><span>90%</span></div>
-            <div class="bar"><i style="--w:90%"></i></div>
-          </div>
-          <div class="skill">
-            <div class="skill-meta"><span>Analytics &amp; Metrics</span><span>88%</span></div>
-            <div class="bar"><i style="--w:88%"></i></div>
-          </div>
-          <div class="skill">
-            <div class="skill-meta"><span>Stakeholder Leadership</span><span>92%</span></div>
-            <div class="bar"><i style="--w:92%"></i></div>
-          </div>
-        </div>
-
-        <div class="about-right">
-          <p class="eyebrow">About</p>
-          <h2>About Me</h2>
-          <p>
-            Senior AI &amp; Data Product Manager with 10+ years of experience building AI-powered products
-            at the intersection of technology, strategy, and product development. MBA from IIM Kozhikode,
-            with prior roles at Microsoft, Avalara, EY, Larsen &amp; Toubro, Bosch, and ADP.
-          </p>
-          <p>
-            I specialize in AI/ML product strategy, GenAI discovery and PRDs, agentic systems, RAG,
-            and shipping portfolio-ready products. I have mentored 1000+ professionals and helped 100+
-            people transition into Product and Consulting roles.
-          </p>
-          <ul class="profile-list">
-            <li><span>Profile:</span> AI Product Leader &amp; Career Mentor</li>
-            <li><span>Domain:</span> AI/ML, Data Products, FinTech, Compliance</li>
-            <li><span>Education:</span> MBA, IIM Kozhikode · B.Tech, JNTU</li>
-            <li><span>Language:</span> English, Hindi &amp; Telugu</li>
-            <li><span>PM Tools:</span> Jira, Confluence, Notion, Analytics</li>
-            <li><span>Other Skills:</span> GenAI, RAG, Agents, MCP, Evals, Prompt Design</li>
-            <li><span>Interest:</span> Mentorship, Open Learning, Building in Public</li>
+          <p>What it asks for</p>
+          <ul>
+            <li>Personalized pedagogy at national scale</li>
+            <li>Automated grading that frees teacher time</li>
+            <li>Value cases a policymaker can fund</li>
           </ul>
-          <div class="about-cta">
-            <p class="stat-line"><strong class="count" data-target="22">0</strong>+ Projects shipped</p>
-            <a class="btn btn-primary" href="https://www.linkedin.com/in/aakshaysharma/" target="_blank" rel="noopener">LinkedIn</a>
-          </div>
-        </div>
-      </div>
+        </aside>
+      </article>
     </section>
 
-    <section class="section resume" id="resume">
-      <p class="eyebrow">Resume</p>
-      <h2>Resume</h2>
-      <p class="lede">
-        AI &amp; Data Product Leader | 10+ years shipping AI-powered products, platforms, and 0-to-1 bets.
-        Passionate about turning messy business problems into agentic systems, measurable GenAI metrics,
-        and career outcomes for the people I mentor.
-      </p>
+    <section class="section studio" id="studio">
+      <p class="eyebrow">05 — Studio</p>
+      <h2>Open work for people who will ship AI, not just talk about it.</h2>
+      <p class="lede">Kits I maintain so mentees and PMs can practice the craft — from <a href="https://github.com/Akshay-Sharma-AI" target="_blank" rel="noopener">github.com/Akshay-Sharma-AI</a>.</p>
 
-      <div class="resume-grid">
-        <div>
-          <h3 class="col-title">Experience</h3>
-          <ol class="timeline">
-            <li>
-              <p class="when">Mar 2025 — Present</p>
-              <h4>Senior AI &amp; Data Product Manager</h4>
-              <p class="org">Avalara</p>
-              <p class="org-note">Global tax compliance platform serving enterprises worldwide.</p>
-              <ul>
-                <li>Leading AI-first product strategy for the Managed Compliance Platform.</li>
-                <li>Embedding real-time fraud detection and compliance tracking for global enterprises.</li>
-                <li>Driving discovery, PRDs, and rollout of GenAI features with quality, cost, and safety metrics.</li>
-              </ul>
-            </li>
-            <li>
-              <p class="when">May 2023 — Mar 2025</p>
-              <h4>AI Platform Product Manager</h4>
-              <p class="org">NSL (Brane AI) Enterprises</p>
-              <p class="org-note">AI-powered B2B SaaS for financial risk management.</p>
-              <ul>
-                <li>Led development of an AI-powered B2B SaaS platform for financial risk management.</li>
-                <li>Increased customer adoption by 30% through sharper problem framing and product loops.</li>
-                <li>Defined agent and RAG use cases with clear kill criteria and feasibility gates.</li>
-              </ul>
-            </li>
-            <li>
-              <p class="when">Feb 2022 — Apr 2023</p>
-              <h4>Data and AI Product Manager</h4>
-              <p class="org">Microsoft</p>
-              <p class="org-note">Cloud and AI products for enterprise migration and decisioning.</p>
-              <ul>
-                <li>Owned end-to-end development of an Azure Cloud Migration Tool.</li>
-                <li>Delivered 25% improvement in forecast accuracy and 20% faster decision-making.</li>
-                <li>Partnered with engineering and data science on model-backed product surfaces.</li>
-              </ul>
-            </li>
-            <li>
-              <p class="when">Mar 2021 — Feb 2022</p>
-              <h4>Product Manager</h4>
-              <p class="org">Ernst &amp; Young (EY)</p>
-              <p class="org-note">Professional services firm building digital products for banking clients.</p>
-              <ul>
-                <li>Built a 0-to-1 AI-powered B2C product for digital banking.</li>
-                <li>Increased market penetration by 15% and customer satisfaction by 35%.</li>
-                <li>Ran discovery, experiments, and stakeholder alignment across consulting and delivery.</li>
-              </ul>
-            </li>
-            <li>
-              <p class="when">May 2019 — Mar 2021</p>
-              <h4>Associate Product Manager</h4>
-              <p class="org">Larsen &amp; Toubro (L&amp;T)</p>
-              <p class="org-note">Engineering conglomerate delivering infrastructure and smart-city programs.</p>
-              <ul>
-                <li>Led a smart-city initiative with IoT-based solutions.</li>
-                <li>Secured contracts worth $5M through strategic business development.</li>
-                <li>Translated field constraints into a product roadmap stakeholders could fund.</li>
-              </ul>
-            </li>
-            <li>
-              <p class="when">Mar 2015 — Jun 2017</p>
-              <h4>Product Analyst</h4>
-              <p class="org">ADP Pvt. Ltd.</p>
-              <p class="org-note">Global HCM leader focused on payroll, tax, and workforce products.</p>
-              <ul>
-                <li>Spearheaded Tax Credits Services product improvements.</li>
-                <li>Improved data processing speed by 50% and cut report generation time by 60%.</li>
-                <li>Built the analytical muscle that later became my product-leadership foundation.</li>
-              </ul>
-            </li>
-          </ol>
-        </div>
-
-        <div>
-          <h3 class="col-title">Education</h3>
-          <ol class="timeline">
-            <li>
-              <p class="when">2022</p>
-              <h4>AI &amp; Business Strategies</h4>
-              <p class="org">UC Berkeley</p>
-              <p class="org-note">Executive program on applying AI to product and business strategy.</p>
-            </li>
-            <li>
-              <p class="when">2017 — 2019</p>
-              <h4>MBA</h4>
-              <p class="org">IIM Kozhikode</p>
-              <p class="org-note">Flagship MBA with a focus on strategy, product, and leadership.</p>
-            </li>
-            <li>
-              <p class="when">2010 — 2014</p>
-              <h4>B.Tech</h4>
-              <p class="org">JNTU</p>
-              <p class="org-note">Undergraduate engineering foundation before the product career.</p>
-            </li>
-          </ol>
-
-          <div class="chip-block">
-            <h3 class="col-title">Tools &amp; Practice</h3>
-            <div class="chips">
-              <span>Agile Product Development</span>
-              <span>Jira</span>
-              <span>Confluence</span>
-              <span>Notion</span>
-              <span>PSPO</span>
-              <span>n8n</span>
-              <span>RAG</span>
-              <span>MCP</span>
-              <span>Langfuse</span>
-              <span>OpenAI / Gemini</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="center-cta">
-        <a class="btn btn-primary" href="https://www.akkshaysharma.com/" target="_blank" rel="noopener">View full profile</a>
-      </div>
-    </section>
-
-    <section class="section projects" id="projects">
-      <p class="eyebrow">Projects</p>
-      <h2>Projects</h2>
-      <p class="lede">Open work on Agentic AI, RAG, GenAI product craft, and shipped tools — from <a href="https://github.com/Akshay-Sharma-AI" target="_blank" rel="noopener">github.com/Akshay-Sharma-AI</a>.</p>
-
-      <div class="project-grid">
-        <article class="project-card">
+      <div class="studio-grid">
+        <article>
           <a href="https://github.com/Akshay-Sharma-AI/agentic-ai-12-week-roadmap" target="_blank" rel="noopener">
-            <div class="project-media tone-1"><i class="fa-solid fa-route"></i></div>
-            <div class="project-body">
-              <h3>Agentic AI 12-Week Roadmap</h3>
-              <p>Job-ready student curriculum: n8n agents, hands-on RAG, guardrails, tracing, deploy, and MCP — concepts to capstone.</p>
-            </div>
+            <p class="tag">Curriculum</p>
+            <h3>12-week Agentic AI roadmap</h3>
+            <p>n8n, RAG, guardrails, tracing, deploy, MCP. A student can finish with a live capstone, not a certificate.</p>
           </a>
         </article>
-        <article class="project-card">
+        <article>
           <a href="https://github.com/Akshay-Sharma-AI/agentic-design-patterns" target="_blank" rel="noopener">
-            <div class="project-media tone-2"><i class="fa-solid fa-diagram-project"></i></div>
-            <div class="project-body">
-              <h3>Agentic Design Patterns</h3>
-              <p>Practical patterns for tools, handoffs, RAG, guardrails, memory, graphs, and MCP that teams can actually ship.</p>
-            </div>
+            <p class="tag">Systems</p>
+            <h3>Agentic design patterns</h3>
+            <p>Tools, handoffs, memory, graphs. The vocabulary I use in PRDs when the architecture is the product.</p>
           </a>
         </article>
-        <article class="project-card">
-          <a href="https://github.com/Akshay-Sharma-AI/Simple-llm-apps" target="_blank" rel="noopener">
-            <div class="project-media tone-3"><i class="fa-solid fa-comments"></i></div>
-            <div class="project-body">
-              <h3>Simple LLM Apps</h3>
-              <p>Practical LLM apps with AI agents and RAG — a maintained collection for mentorship and hands-on learning.</p>
-            </div>
-          </a>
-        </article>
-        <article class="project-card">
-          <a href="https://github.com/Akshay-Sharma-AI/rag-lab-handbook" target="_blank" rel="noopener">
-            <div class="project-media tone-4"><i class="fa-solid fa-database"></i></div>
-            <div class="project-body">
-              <h3>RAG Lab Handbook</h3>
-              <p>Build and explain a working retrieval pipeline with n8n, Pinecone, and Chroma — not concept-only RAG.</p>
-            </div>
-          </a>
-        </article>
-        <article class="project-card">
+        <article>
           <a href="https://github.com/Akshay-Sharma-AI/ai-prd-kit" target="_blank" rel="noopener">
-            <div class="project-media tone-5"><i class="fa-solid fa-file-lines"></i></div>
-            <div class="project-body">
-              <h3>AI PRD Kit</h3>
-              <p>PRD templates for GenAI, RAG, and agentic products — written for AI and Data Product Managers.</p>
-            </div>
+            <p class="tag">Craft</p>
+            <h3>AI PRD kit</h3>
+            <p>Templates for GenAI, RAG, and agentic products. Written for AI Product Managers, not for slide theatres.</p>
           </a>
         </article>
-        <article class="project-card">
+        <article>
+          <a href="https://github.com/Akshay-Sharma-AI/genai-product-metrics" target="_blank" rel="noopener">
+            <p class="tag">Evals</p>
+            <h3>GenAI product metrics</h3>
+            <p>Quality, cost, safety, weekly scorecards. The difference between a model and a managed product.</p>
+          </a>
+        </article>
+        <article>
+          <a href="https://github.com/Akshay-Sharma-AI/rag-lab-handbook" target="_blank" rel="noopener">
+            <p class="tag">Lab</p>
+            <h3>RAG lab handbook</h3>
+            <p>Build and explain a retrieval pipeline. If you cannot draw the path from chunk to answer, you cannot own it.</p>
+          </a>
+        </article>
+        <article>
           <a href="https://sprint-capacity-app.vercel.app" target="_blank" rel="noopener">
-            <div class="project-media tone-6"><i class="fa-solid fa-gauge-high"></i></div>
-            <div class="project-body">
-              <h3>Sprint Capacity App</h3>
-              <p>Shipped planning tool for sprint capacity. Live on Vercel, source on GitHub for product and engineering teams.</p>
-            </div>
+            <p class="tag">Shipped</p>
+            <h3>Sprint capacity app</h3>
+            <p>A live planning tool. Because an AI PM who cannot ship a small product will not ship a large one.</p>
           </a>
         </article>
       </div>
     </section>
 
     <section class="stats" id="stats">
-      <div class="stat">
-        <strong class="count" data-target="10">0</strong>
-        <span>Years</span>
-      </div>
-      <div class="stat">
-        <strong class="count" data-target="22">0</strong>
-        <span>Projects</span>
-      </div>
-      <div class="stat">
-        <strong class="count" data-target="1000">0</strong>
-        <span>Mentored</span>
-      </div>
-      <div class="stat">
-        <strong class="count" data-target="5" data-decimals="1">0</strong>
-        <span>Mentee rating</span>
-      </div>
-    </section>
-
-    <section class="github-cta">
-      <div>
-        <h2>More projects on GitHub</h2>
-        <p>I love solving business problems with AI products — discovery, agents, RAG, evals, and the last mile of shipping.</p>
-      </div>
-      <a class="btn btn-primary" href="https://github.com/Akshay-Sharma-AI" target="_blank" rel="noopener">GitHub</a>
+      <div class="stat"><strong class="count" data-target="10">0</strong><span>Years building products</span></div>
+      <div class="stat"><strong class="count" data-target="1000">0</strong><span>People mentored</span></div>
+      <div class="stat"><strong class="count" data-target="5" data-decimals="1">0</strong><span>Mentee rating</span></div>
+      <div class="stat"><strong>2024</strong><span>Journal research on AI &amp; equity</span></div>
     </section>
 
     <section class="section contact" id="contact">
-      <p class="eyebrow">Contact</p>
-      <h2>Contact Me</h2>
-      <p class="lede">Below are the details to reach out to me.</p>
+      <p class="eyebrow">06 — Continue the conversation</p>
+      <h2>If you are hiring an AI Product Manager, start here.</h2>
+      <p class="lede">One Linktree holds the newsletter, case studies, research, and mentorship doors.</p>
 
       <div class="contact-grid">
-        <article class="contact-card">
-          <i class="fa-solid fa-location-dot"></i>
-          <h3>Address</h3>
-          <p>Telangana, India</p>
-        </article>
-        <article class="contact-card">
-          <i class="fa-solid fa-phone"></i>
-          <h3>Contact Number</h3>
-          <p><a href="tel:+918121987194">+91 8121987194</a></p>
-        </article>
-        <article class="contact-card">
+        <a class="contact-card" href="https://linktr.ee/sharmaakshay" target="_blank" rel="noopener">
+          <i class="fa-solid fa-link"></i>
+          <h3>Linktree</h3>
+          <p>linktr.ee/sharmaakshay</p>
+        </a>
+        <a class="contact-card" href="mailto:innovatewithsharma@gmail.com">
           <i class="fa-solid fa-envelope"></i>
-          <h3>Email Address</h3>
-          <p><a href="mailto:innovatewithsharma@gmail.com">innovatewithsharma@gmail.com</a></p>
-        </article>
-        <article class="contact-card">
-          <i class="fa-brands fa-github"></i>
-          <h3>GitHub</h3>
-          <p><a href="https://github.com/Akshay-Sharma-AI" target="_blank" rel="noopener">github.com/Akshay-Sharma-AI</a></p>
-        </article>
+          <h3>Email</h3>
+          <p>innovatewithsharma@gmail.com</p>
+        </a>
+        <a class="contact-card" href="tel:+918121987194">
+          <i class="fa-solid fa-phone"></i>
+          <h3>Phone / WhatsApp</h3>
+          <p>+91 8121987194</p>
+        </a>
+        <a class="contact-card" href="https://www.linkedin.com/in/aakshaysharma/" target="_blank" rel="noopener">
+          <i class="fa-brands fa-linkedin-in"></i>
+          <h3>LinkedIn</h3>
+          <p>linkedin.com/in/aakshaysharma</p>
+        </a>
       </div>
 
       <div class="center-cta">
-        <a class="btn btn-primary" href="https://www.akkshaysharma.com/" target="_blank" rel="noopener">Book a session</a>
-      </div>
-
-      <div class="socials">
-        <p>Find me on</p>
-        <div>
-          <a href="https://www.linkedin.com/in/aakshaysharma/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-          <a href="https://github.com/Akshay-Sharma-AI" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-          <a href="mailto:innovatewithsharma@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
-          <a href="https://www.akkshaysharma.com/" target="_blank" rel="noopener" aria-label="Website"><i class="fa-solid fa-globe"></i></a>
-        </div>
+        <a class="btn btn-primary" href="https://linktr.ee/sharmaakshay" target="_blank" rel="noopener">Book a 1:1</a>
+        <a class="btn btn-outline" href="https://github.com/Akshay-Sharma-AI" target="_blank" rel="noopener">GitHub</a>
       </div>
     </section>
 
     <footer class="footer">
-      <p>© <span id="year"></span> Akshay Sharma. Built for GitHub Pages.</p>
+      <p>© <span id="year"></span> Akshay Sharma · AI Product Manager · Telangana, India</p>
     </footer>
   </main>
 

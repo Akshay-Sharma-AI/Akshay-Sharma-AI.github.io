@@ -1,8 +1,8 @@
 const typingEl = document.getElementById("typing-animation");
 const texts = [
-  "Senior AI Product Manager ",
-  "Agentic AI Mentor ",
-  "Product Leader ",
+  "AI Product Manager ",
+  "I ship agents, not demos. ",
+  "Researcher · Mentor · Builder ",
 ];
 
 function playTyping(text) {
@@ -10,15 +10,22 @@ function playTyping(text) {
   for (let i = 0; i < text.length; i += 1) {
     window.setTimeout(() => {
       typingEl.textContent += text[i];
-    }, i * 90);
+    }, i * 70);
   }
   window.setTimeout(() => {
     typingEl.textContent = "";
     playTyping(texts[(texts.indexOf(text) + 1) % texts.length]);
-  }, text.length * 90 + 900);
+  }, text.length * 70 + 1100);
 }
 
 playTyping(texts[0]);
+
+const orb = document.getElementById("orb");
+window.addEventListener("pointermove", (event) => {
+  if (!orb) return;
+  orb.style.left = `${event.clientX}px`;
+  orb.style.top = `${event.clientY}px`;
+});
 
 const sidebar = document.getElementById("sidebar");
 const toggle = document.getElementById("nav-toggle");
@@ -52,7 +59,6 @@ function setActiveLink() {
 }
 window.addEventListener("scroll", setActiveLink);
 
-const bars = document.querySelectorAll(".bar i");
 const counters = document.querySelectorAll(".count");
 let counted = false;
 
@@ -72,27 +78,19 @@ function animateCounters() {
   });
 }
 
-function revealSkills() {
-  bars.forEach((bar) => bar.classList.add("ready"));
-}
-
-const observer = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (!entry.isIntersecting) return;
-      if (entry.target.id === "about") revealSkills();
-      if ((entry.target.id === "about" || entry.target.id === "stats") && !counted) {
-        counted = true;
-        animateCounters();
-      }
-    });
-  },
-  { threshold: 0.25 }
-);
-
-const about = document.getElementById("about");
 const stats = document.getElementById("stats");
-if (about) observer.observe(about);
-if (stats) observer.observe(stats);
+if (stats) {
+  new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting && !counted) {
+          counted = true;
+          animateCounters();
+        }
+      });
+    },
+    { threshold: 0.3 }
+  ).observe(stats);
+}
 
 document.getElementById("year").textContent = new Date().getFullYear();
